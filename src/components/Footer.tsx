@@ -10,8 +10,9 @@ const Footer: React.FC = () => {
           {/* Логотип и описание */}
           <div className="lg:col-span-1">
             <Link to="/" className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-br from-primary to-primary-glow rounded-lg flex items-center justify-center">
-                <span className="logo"><img src="img\logo (11).png" alt=""/></span>
+              <div className="w-10 h-10 bg-gradient-to-br from-primary to-primary-glow rounded-lg flex items-center justify-center relative overflow-hidden group">
+                <span className="logo relative z-10 transition-all duration-300 group-hover:scale-110 group-hover:drop-shadow-[0_0_20px_rgba(59,130,246,0.5)]"><img src="img\logo (11).png" alt=""/></span>
+                <div className="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-sm"></div>
               </div>
               <span className="text-xl font-bold text-foreground">ElectroCity</span>
             </Link>

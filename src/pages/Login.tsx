@@ -47,8 +47,9 @@ const Login: React.FC = () => {
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-background to-muted/50 p-4">
       <Card className="w-full max-w-md">
         <CardHeader className="text-center">
-          <div className="mx-auto mb-4 w-12 h-12 bg-gradient-to-br from-primary to-primary-glow rounded-lg flex items-center justify-center">
-            <span className="text-primary-foreground font-bold text-xl"><img src="img/logo (11).png" alt="ElectroCity" /></span>
+          <div className="mx-auto mb-4 w-12 h-12 bg-gradient-to-br from-primary to-primary-glow rounded-lg flex items-center justify-center relative overflow-hidden group">
+            <span className="text-primary-foreground font-bold text-xl relative z-10 transition-all duration-300 group-hover:scale-110 group-hover:drop-shadow-[0_0_20px_rgba(59,130,246,0.5)]"><img src="img/logo (11).png" alt="ElectroCity" /></span>
+            <div className="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-sm"></div>
           </div>
           <CardTitle className="text-2xl">Вход в систему</CardTitle>
           <CardDescription>
