@@ -478,7 +478,7 @@ const Admin: React.FC = () => {
                   </Button>
 
                   <p className="text-xs text-muted-foreground">
-                    Товары сохраняются в localStorage и видны всем ролям в этом браузере.
+                    
                   </p>
                 </CardContent>
               </Card>

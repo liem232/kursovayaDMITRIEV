@@ -239,7 +239,7 @@ const Checkout: React.FC = () => {
                     </div>
                     <div className="flex items-center space-x-2">
                       <RadioGroupItem value="pickup" id="pickup" />
-                      <Label htmlFor="pickup">Самовывоз (пр-д Автоматики, 12)</Label>
+                      <Label htmlFor="pickup">Самовывоз (ул. Промышленная, 25)</Label>
                     </div>
                   </RadioGroup>
 
